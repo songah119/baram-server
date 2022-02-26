@@ -13,7 +13,7 @@ const server=http.baramServer(function(req,res){
                 name: "name",
                 maker: "maker",
                 price: 400,
-                },
+                }
             ]);
             res.end(products);
         }
